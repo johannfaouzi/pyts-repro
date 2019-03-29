@@ -47,7 +47,7 @@ are presented in the table below.
 
 ## Comparisons
 
-[Link to the notebook](../blob/master/0.8.0/1NN - ED, DTW and DTW(w).ipynb)
+[Link to the notebook](../master/0.8.0/1NN%20-%20ED%2C%20DTW%20and%20DTW(w).ipynb)
 
 ### 1NN classifier with Euclidean Distance, Dynamic Time Warping and Dynamic Time Warping with a learned warping window
 
@@ -78,7 +78,7 @@ are presented in the table below.
 
 ### BOSS transformer followed by a 1NN classifier using the BOSS metric
 
-[Link to the notebook](../blob/master/0.8.0/BOSS.ipynb)
+[Link to the notebook](../master/0.8.0/BOSS.ipynb)
 
 | Name             | BOSS (reported) | BOSS (pyts) |
 |:----------------:|:---------------:|:-----------:|
@@ -91,7 +91,7 @@ are presented in the table below.
 
 ### BOSSVS classifier
 
-[Link to the notebook](../blob/master/0.8.0/BOSSVS.ipynb)
+[Link to the notebook](../master/0.8.0/BOSSVS.ipynb)
 
 | Name             | BOSSVS (reported) | BOSSVS (pyts) |
 |:----------------:|:-----------------:|:-------------:|
@@ -105,7 +105,7 @@ are presented in the table below.
 
 ### WEASEL transformer followed by a logistic regression
 
-[Link to the notebook](../blob/master/0.8.0/WEASEL.ipynb)
+[Link to the notebook](../master/0.8.0/WEASEL.ipynb)
 
 | Name             | WEASEL (reported) | WEASEL (pyts) |
 |:----------------:|:-----------------:|:-------------:|
