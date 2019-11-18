@@ -54,7 +54,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### 1NN classifier with Euclidean Distance, Dynamic Time Warping and Dynamic Time Warping with a learned warping window
 
-| Name             | ED (reported) | ED (pyts) | DTW (reported) | DTW (pyts) | DTW(w) (repored)  | DTW(w) (pyts)  |
+| Name             | ED (reported) | ED (pyts) | DTW (reported) | DTW (pyts) | DTW(w) (reported) | DTW(w) (pyts)  |
 |:----------------:|:-------------:|:---------:|:--------------:|:----------:|:-----------------:|:--------------:|
 | Adiac            | 0.6113        | 0.6113    | 0.6036         | 0.6036     | 0.6087            | 0.6087         |
 | ECG200           | 0.8800        | 0.8800    | 0.7700         | 0.7700     | 0.8800            | 0.8800         |
