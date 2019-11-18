@@ -3,5 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Notebook checkpoints
+.ipynb_checkpoints
+
 # Mac OS X files
 .DS_STORE
