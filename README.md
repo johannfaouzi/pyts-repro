@@ -44,10 +44,13 @@ are presented in the table below.
 | Sensor      | Plane            | 105   | 105  | 7     | 144    |
 | Simulated   | SyntheticControl | 300   | 300  | 6     | 60     |
 
+The notebooks are self-contained as there is some code to download the datasets used
+in this benchmark. Make sure to have an Internet connection when you run them!
+
 
 ## Comparisons
 
-[Link to the notebook](../master/0.8.0/1NN%20-%20ED%2C%20DTW%20and%20DTW(w).ipynb)
+[Link to the notebook](../master/0.9.0/1NN%20-%20ED%2C%20DTW%20and%20DTW(w).ipynb)
 
 ### 1NN classifier with Euclidean Distance, Dynamic Time Warping and Dynamic Time Warping with a learned warping window
 
@@ -61,24 +64,9 @@ are presented in the table below.
 | SyntheticControl | 0.8800        | 0.8800    | 0.9933         | 0.9933     | 0.9833            | 0.9833         |
 
 
-<!--
-    ### SAX-VSM
-
-    [Link to the notebook]()
-
-    | Name             | SAX-VSM (reported) | SAX-VSM (pyts) |
-    |:----------------:|:------------------:|:--------------:|
-    | Adiac            |                    |                |
-    | ECG200           |                    |                |
-    | GunPoint         |                    |                |
-    | MiddlePhalanxTW  |                    |                |
-    | Plane            |                    |                |
-    | SyntheticControl |                    |                |
--->
-
 ### BOSS transformer followed by a 1NN classifier using the BOSS metric
 
-[Link to the notebook](../master/0.8.0/BOSS.ipynb)
+[Link to the notebook](../master/0.9.0/BOSS.ipynb)
 
 | Name             | BOSS (reported) | BOSS (pyts) |
 |:----------------:|:---------------:|:-----------:|
@@ -89,9 +77,10 @@ are presented in the table below.
 | Plane            | 1.000           | 1.000       |
 | SyntheticControl | 0.967           | 0.963       |
 
+
 ### BOSSVS classifier
 
-[Link to the notebook](../master/0.8.0/BOSSVS.ipynb)
+[Link to the notebook](../master/0.9.0/BOSSVS.ipynb)
 
 | Name             | BOSSVS (reported) | BOSSVS (pyts) |
 |:----------------:|:-----------------:|:-------------:|
@@ -105,7 +94,7 @@ are presented in the table below.
 
 ### WEASEL transformer followed by a logistic regression
 
-[Link to the notebook](../master/0.8.0/WEASEL.ipynb)
+[Link to the notebook](../master/0.9.0/WEASEL.ipynb)
 
 | Name             | WEASEL (reported) | WEASEL (pyts) |
 |:----------------:|:-----------------:|:-------------:|
