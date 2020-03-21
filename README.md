@@ -66,7 +66,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### Bag-of-Patterns transformer followed by a 1NN classifier using Euclidean distance
 
-[Link to the notebook](../master/0.11.0/Bag-of-Patterns.ipynb>)
+[Link to the notebook](../master/0.11.0/Bag-of-Patterns.ipynb)
 
 | Name             | Bag-of-Patterns (reported) | Bag-of-Patterns (pyts) |
 |:----------------:|:--------------------------:|:----------------------:|
