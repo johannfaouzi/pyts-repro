@@ -50,7 +50,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ## Comparisons
 
-[Link to the notebook](../master/0.11.0/KNN.ipynb)
+[Link to the notebook](../master/0.12.0/KNN.ipynb)
 
 ### 1NN classifier with Euclidean Distance, Dynamic Time Warping and Dynamic Time Warping with a learned warping window
 
@@ -66,7 +66,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### Bag-of-Patterns transformer followed by a 1NN classifier using Euclidean distance
 
-[Link to the notebook](../master/0.11.0/Bag-of-Patterns.ipynb)
+[Link to the notebook](../master/0.12.0/Bag-of-Patterns.ipynb)
 
 | Name             | Bag-of-Patterns (reported) | Bag-of-Patterns (pyts) |
 |:----------------:|:--------------------------:|:----------------------:|
@@ -81,7 +81,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### BOSS transformer followed by a 1NN classifier using the BOSS metric
 
-[Link to the notebook](../master/0.11.0/BOSS.ipynb)
+[Link to the notebook](../master/0.12.0/BOSS.ipynb)
 
 | Name             | BOSS (reported) | BOSS (pyts) |
 |:----------------:|:---------------:|:-----------:|
@@ -95,7 +95,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### BOSSVS classifier
 
-[Link to the notebook](../master/0.11.0/BOSSVS.ipynb)
+[Link to the notebook](../master/0.12.0/BOSSVS.ipynb)
 
 | Name             | BOSSVS (reported) | BOSSVS (pyts) |
 |:----------------:|:-----------------:|:-------------:|
@@ -109,7 +109,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### Learning-Shapelet classifier
 
-[Link to the notebook](../master/0.11.0/LearningShapelet.ipynb)
+[Link to the notebook](../master/0.12.0/LearningShapelet.ipynb)
 
 | Name             | LearningShapelet (reported)  | LearningShapelet (pyts)  |
 |:----------------:|:----------------------------:|:------------------------:|
@@ -123,7 +123,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### ROCKET transformer followed by a Ridge Classifier with built-in cross-validation
 
-[Link to the notebook](../master/0.11.0/ROCKET.ipynb)
+[Link to the notebook](../master/0.12.0/ROCKET.ipynb)
 
 
 | Name             | ROCKET (reported)            | ROCKET (pyts)            |
@@ -138,7 +138,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### SAXVSM classifier
 
-[Link to the notebook](../master/0.11.0/SAXVSM.ipynb)
+[Link to the notebook](../master/0.12.0/SAXVSM.ipynb)
 
 
 | Name             | SAXVSM (reported)            | SAXVSM (pyts)            |
@@ -153,7 +153,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### ShapeletTransform transformer followed by a Support Vector Machine with a linear kernel
 
-[Link to the notebook](../master/0.11.0/ShapeletTransform.ipynb)
+[Link to the notebook](../master/0.12.0/ShapeletTransform.ipynb)
 
 
 | Name             | ShapeletTransform (reported) | ShapeletTransform (pyts) |
@@ -166,9 +166,53 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 | SyntheticControl | 0.8733                       | 0.873                    |
 
 
+TimeSeriesForest classifier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[Link to the notebook](../master/0.12.0/TimeSeriesForest.ipynb)
+
++------------------+------------------------------+--------------------------+
+| Name             | TimeSeriesForest (reported)  | TimeSeriesForest (pyts)  |
++==================+==============================+==========================+
+| Adiac            | 0.7072                       | 0.706                    |
++------------------+------------------------------+--------------------------+
+| ECG200           | 0.8682                       | 0.880                    |
++------------------+------------------------------+--------------------------+
+| GunPoint         | 0.9617                       | 0.969                    |
++------------------+------------------------------+--------------------------+
+| MiddlePhalanxTW  | 0.5770                       | 0.591                    |
++------------------+------------------------------+--------------------------+
+| Plane            | 0.9941                       | 1.000                    |
++------------------+------------------------------+--------------------------+
+| SyntheticControl | 0.9903                       | 0.987                    |
++------------------+------------------------------+--------------------------+
+
+
+TSBF classifier
+^^^^^^^^^^^^^^^
+
+[Link to the notebook](../master/0.12.0/TSBF.ipynb)
+
++------------------+------------------------------+--------------------------+
+| Name             | TSBF (reported)              | TSBF (pyts)              |
++==================+==============================+==========================+
+| Adiac            | 0.7268                       | 0.703                    |
++------------------+------------------------------+--------------------------+
+| ECG200           | 0.8468                       | 0.820                    |
++------------------+------------------------------+--------------------------+
+| GunPoint         | 0.9645                       | 0.967                    |
++------------------+------------------------------+--------------------------+
+| MiddlePhalanxTW  | 0.5682                       | 0.558                    |
++------------------+------------------------------+--------------------------+
+| Plane            | 0.9932                       | 1.000                    |
++------------------+------------------------------+--------------------------+
+| SyntheticControl | 0.9865                       | 0.993                    |
++------------------+------------------------------+--------------------------+
+
+
 ### WEASEL transformer followed by a logistic regression
 
-[Link to the notebook](../master/0.11.0/WEASEL.ipynb)
+[Link to the notebook](../master/0.12.0/WEASEL.ipynb)
 
 | Name             | WEASEL (reported) | WEASEL (pyts) |
 |:----------------:|:-----------------:|:-------------:|
