@@ -50,7 +50,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ## Comparisons
 
-[Link to the notebook](../master/0.12.0/KNN.ipynb)
+[Link to the notebook](../master/0.13.0/KNN.ipynb)
 
 ### 1NN classifier with Euclidean Distance, Dynamic Time Warping and Dynamic Time Warping with a learned warping window
 
@@ -66,7 +66,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### Bag-of-Patterns transformer followed by a 1NN classifier using Euclidean distance
 
-[Link to the notebook](../master/0.12.0/Bag-of-Patterns.ipynb)
+[Link to the notebook](../master/0.13.0/Bag-of-Patterns.ipynb)
 
 | Name             | Bag-of-Patterns (reported) | Bag-of-Patterns (pyts) |
 |:----------------:|:--------------------------:|:----------------------:|
@@ -81,7 +81,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### BOSS transformer followed by a 1NN classifier using the BOSS metric
 
-[Link to the notebook](../master/0.12.0/BOSS.ipynb)
+[Link to the notebook](../master/0.13.0/BOSS.ipynb)
 
 | Name             | BOSS (reported) | BOSS (pyts) |
 |:----------------:|:---------------:|:-----------:|
@@ -95,7 +95,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### BOSSVS classifier
 
-[Link to the notebook](../master/0.12.0/BOSSVS.ipynb)
+[Link to the notebook](../master/0.13.0/BOSSVS.ipynb)
 
 | Name             | BOSSVS (reported) | BOSSVS (pyts) |
 |:----------------:|:-----------------:|:-------------:|
@@ -109,36 +109,36 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### Learning-Shapelet classifier
 
-[Link to the notebook](../master/0.12.0/LearningShapelet.ipynb)
+[Link to the notebook](../master/0.13.0/LearningShapelet.ipynb)
 
 | Name             | LearningShapelet (reported)  | LearningShapelet (pyts)  |
 |:----------------:|:----------------------------:|:------------------------:|
-| Adiac            | 0.5274                       | 0.527                    |
+| Adiac            | 0.5274                       | 0.537                    |
 | ECG200           | 0.8714                       | 0.860                    |
-| GunPoint         | 0.9826                       | 0.987                    |
-| MiddlePhalanxTW  | 0.5403                       | 0.552                    |
-| Plane            | 0.9948                       | 0.990                    |
+| GunPoint         | 0.9826                       | 0.973                    |
+| MiddlePhalanxTW  | 0.5403                       | 0.494                    |
+| Plane            | 0.9948                       | 0.981                    |
 | SyntheticControl | 0.9946                       | 0.990                    |
 
 
 ### ROCKET transformer followed by a Ridge Classifier with built-in cross-validation
 
-[Link to the notebook](../master/0.12.0/ROCKET.ipynb)
+[Link to the notebook](../master/0.13.0/ROCKET.ipynb)
 
 
 | Name             | ROCKET (reported)            | ROCKET (pyts)            |
 |:----------------:|:----------------------------:|:------------------------:|
 | Adiac            | 0.7847                       | 0.785                    |
-| ECG200           | 0.9060                       | 0.910                    |
-| GunPoint         | 1.0000                       | 1.000                    |
-| MiddlePhalanxTW  | 0.5558                       | 0.565                    |
+| ECG200           | 0.9060                       | 0.850                    |
+| GunPoint         | 1.0000                       | 0.987                    |
+| MiddlePhalanxTW  | 0.5558                       | 0.571                    |
 | Plane            | 1.0000                       | 1.000                    |
-| SyntheticControl | 0.8733                       | 1.000                    |
+| SyntheticControl | 0.8733                       | 0.983                    |
 
 
 ### SAXVSM classifier
 
-[Link to the notebook](../master/0.12.0/SAXVSM.ipynb)
+[Link to the notebook](../master/0.13.0/SAXVSM.ipynb)
 
 
 | Name             | SAXVSM (reported)            | SAXVSM (pyts)            |
@@ -153,7 +153,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### ShapeletTransform transformer followed by a Support Vector Machine with a linear kernel
 
-[Link to the notebook](../master/0.12.0/ShapeletTransform.ipynb)
+[Link to the notebook](../master/0.13.0/ShapeletTransform.ipynb)
 
 
 | Name             | ShapeletTransform (reported) | ShapeletTransform (pyts) |
@@ -168,7 +168,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### TimeSeriesForest classifier
 
-[Link to the notebook](../master/0.12.0/TimeSeriesForest.ipynb)
+[Link to the notebook](../master/0.13.0/TimeSeriesForest.ipynb)
 
 
 | Name             | TimeSeriesForest (reported)  | TimeSeriesForest (pyts)  |
@@ -184,7 +184,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### TSBF classifier
 
-[Link to the notebook](../master/0.12.0/TSBF.ipynb)
+[Link to the notebook](../master/0.13.0/TSBF.ipynb)
 
 | Name             | TSBF (reported)              | TSBF (pyts)              |
 |:----------------:|:----------------------------:|:------------------------:|
@@ -198,7 +198,7 @@ in this benchmark. Make sure to have an Internet connection when you run them!
 
 ### WEASEL transformer followed by a logistic regression
 
-[Link to the notebook](../master/0.12.0/WEASEL.ipynb)
+[Link to the notebook](../master/0.13.0/WEASEL.ipynb)
 
 | Name             | WEASEL (reported) | WEASEL (pyts) |
 |:----------------:|:-----------------:|:-------------:|
